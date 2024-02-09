@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar with Logo and Icon</title>
+  <!-- Link to Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+  />
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="../css/main.css" />
+  <!-- Link to fontawesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<html lang="en">
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+              <img src="../img/steff_logo-removebg-preview.png" alt="" />
+            </a>
+          </div>
+          <div class="order-lg-2 navbar-brand">
+            <button type="button" class="btn position-relative">
+              <a href="" class="text-success">
+                <i class="fa fa-shopping-basket"></i
+              ></a>
+            </button>
+          </div>
+          <div
+            class="collapse navbar-collapse mx-auto order-lg-1 justify-content-center p-2"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <br />
+              <li class="nav-item active">
+                <a class="nav-link text-success" href="#">WHAT'S NEW</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown-center">
+                  <a
+                    class="nav-link dropdown text-success"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    SHOP
+                  </a>
+                  <div class="dropdown-menu m-0 mt-2 container-fluid">
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/home/images/1191_img_EN.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/home/images/1190_img_EN.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item">CLOTHING</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">SHOES</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          >WEDDING <i class="fa fa-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">SWIMWEAR</a>
+                        <a href="" class="dropdown-item">ACCESSORIES</a>
+                        <a href="" class="dropdown-item">SHAPEWEAR</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item">BY COLLECTIONS</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown-center">
+                  <a
+                    class="nav-link dropdown text-success"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    CAMPAIGN
+                  </a>
+                  <div class="dropdown-menu container-fluid mt-2">
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/menu/lookbooks/20240115-weekender-dropdown.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/menu/lookbooks/20231218-lalune-dropdown.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/menu/lookbooks/20240103-holidays-dropdown.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/menu/lookbooks/20231024-decadent-dropdown.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a href="" class="dropdown-item"
+                          ><img
+                            src="https://d166chel5lrjm5.cloudfront.net/images/menu/lookbooks/20230925-fall-dropdown.jpg"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">BRAND</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#"
+                  >STORES <i class="fa fa-location-arrow"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Steph Fits.</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br />
+      <div class="container-fluid bg-faq mt-5">
+        <div class="row d-flex">
+          <div class="col-md-6">
+            <img
+              src="../img/steff_logo-removebg-preview.png"
+              class="w-75"
+              alt="steff_logo-removebg-preview"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="mt-5 p-3">
+              <h5 class="fs-3 fw-bold text-success">
+                Shipping & Return Policy
+              </h5>
+              <div class="card p-3 mt-4">
+                <div class="accordion-item">
+                  <h6 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed text-success"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      please send your item(s) back to our Distribution Center
+                      in accordance with the following Return Policy:
+                    </button>
+                  </h6>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      * Items must be unworn, unwashed, and have original tags
+                      attached. <br />
+                      * Items must be free of stains, makeup, deodorant, or
+                      wear.  <br />* Headwears such as Ski Masks, face caps,
+                      beanies etc are non-returnable due to health and safety
+                      reasons. <br />
+                      * All premium brand items both on discount/sales are
+                      non-refundable. All CLEARANCE SALES ARE FINAL SALE and
+                      non-refundable. <br />
+                      * Items returned will be refunded in the amount of the
+                      item total (i.e. discounted items will be refunded in the
+                      discounted value), for items received at a value of #0
+                      (i.e. Buy 1 Get 1 FREE deals.) we cannot reimburse more
+                      than what the item's total value is. <br />
+                      * Delivery fee must be paid for to&fro for any refunded
+                      item❗if damage is from us, we would only clear the
+                      delivery fee back. <br />* Returning of goods must be done
+                      on or within 24hours ‼<br />
+                      * Returns/exchange process can take up to 14 business days
+                      after your item(s) are received at our physical store
+                      Center. <br />
+                      * Damaged, defective, or incorrect items must be reported
+                      within 24hours after delivery (Note: If such items are not
+                      reported in a timely fashion, we will not reproduce any
+                      items. <br />
+                      * Return packages must include a completed return request
+                      form and original packing slip to ensure processing.
+                      (Note: If the return request form is not filled out
+                      correctly, your return may experience delays in
+                      processing. You may use the return request form included
+                      in your original packaging. br * Return drop-offs are not
+                      accepted to any of the riders or logistics companies if
+                      sent back to the store without laying a complaint and
+                      refilling return form. <br />* We will not ship back items
+                      to you if you ship them to our physical Center and they do
+                      not meet our standard Return Policy Guidelines. <br />
+                      <span class="text-success fw-bold">
+                        Additional notes:</span
+                      >
+                      Depending on the shipping method and carrier selected,
+                      your return package may take several days to reach us.
+                      Keep your proof of postage and ship your return along with
+                      a tracking number as we are not liable for return packages
+                      that are lost or stolen in-transit. Without proof of
+                      receipt and delivery, STEPHONYOURFIT Official will not
+                      issue store credit for any parcel we didn’t receive.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h6 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed text-success"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Can I exchange it for a different size/item?
+                    </button>
+                  </h6>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      No. Exchange for a different item can not be made. We
+                      offer exchange for items that was claimed to be damaged by
+                      us (Example: It a stain or tear; meant to order a
+                      different color). All exchange requests must be received
+                      within 24/48hours of receiving your package. Once you have
+                      shipped the item for exchange to us, we will ship the new
+                      item to you at no cost. We will not accept exchanged items
+                      that have signs of wear or stains. Tags must be attached
+                      and the Exchange Request Form must be completed.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h6 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed text-success"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      I am an international customer. How do I return an item?
+                    </button>
+                  </h6>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      To avoid unnecessary and potentially costly return
+                      shipping, please contact our Customer Care Team before
+                      returning an item. There are special circumstances that
+                      may limit our ability to accept or process a return from
+                      an international location. However, we will do our best to
+                      accommodate your return request. Please note that we are
+                      not responsible for returns until they reach our
+                      distribution center in Lagos.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h6 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed text-success"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      There is something missing/ defective/ not what I ordered.
+                      What should I do?
+                    </button>
+                  </h6>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      We know how frustrating this can be and always want to
+                      make sure every order is perfect! Once you receive your
+                      order, please thoroughly check the delivered items
+                      immediately. If you believe an item is missing, damaged or
+                      incorrectly received please submit a return request online
+                      at no cost to you. (Damaged, defective, or incorrect items
+                      must be reported within 24/48hours of receiving. If such
+                      items are not reported in a timely fashion, we will not be
+                      able to accept the return. If you have questions please
+                      email us at stephclothing7@gmail.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer">
+      <footer class="footer">
+        <div class="row p-3 d-flex">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="row">
+              <div class="col">
+                <p class=" "><a href="" class="text-success">FAQS</a></p>
+              </div>
+              <div class="col">
+                <p class=""><a href="" class="text-success">Brand</a></p>
+              </div>
+              <div class="col">
+                <p class=""><a href="" class="text-success">Shipping</a></p>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-center text-success fs-6 fst-normal">
+            Copyright 2024 - Steph On Your Fits
+          </p>
+          <div></div>
+        </div>
+      </footer>
+    </div>
+
+    <!--Jquery-->
+    <script src="../js/jquery-3.7.1.js"></script>
+    <!-- Include Bootstrap JS and Popper.js (optional but may be required for certain components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
